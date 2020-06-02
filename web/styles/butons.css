@@ -1,0 +1,27 @@
+﻿input[type="submit"] {
+    background:#0169fe;
+    padding:3px 7px;
+    color:#fff;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:1px solid #fff
+}
+
+input[type="submit"] {
+    -webkit-transition-duration:1s;
+    -o-transition-duration:1s;
+    -moz-transition-duration:1s;
+    transition-duration:1s
+}
+
+input[type="submit"]:hover {
+    background:#fff;
+    padding:3px 7px;
+    color:#0169fe;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:1px solid #0169fe;
+    cursor:url(/cursors/cursor2.cur),progress!important
+}

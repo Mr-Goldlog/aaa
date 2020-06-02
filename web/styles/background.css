@@ -1,0 +1,7 @@
+﻿body{
+  background: url(/images/bacground.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ }
+#zatemnenie a img{opacity:0.8; -moz-opacity:0.8; filter:alpha(opacity=40);}
+#zatemnenie a:hover img{opacity:1.0; -moz-opacity:1.0; filter:alpha(opacity=100);}

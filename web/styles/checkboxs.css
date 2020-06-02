@@ -1,0 +1,34 @@
+﻿input[type="checkbox"] {
+    display:none
+}
+
+input[type="checkbox"] + label {
+    line-height:24px;
+    vertical-align:top;
+    cursor:url(/cursors/cursor2.cur),progress!important
+}
+
+input[type="checkbox"] + label {
+    position:absolute;
+    height:24px;
+    overflow:hidden
+}
+
+input[type="checkbox"] + label::before {
+    content:"";
+    display:inline-block;
+    height:18px;
+    width:18px;
+    margin:0 5px 0 0;
+    border:1px solid #fff
+}
+
+input[type="checkbox"] + label::before {
+    background-image:url(/images/checkbox1.png);
+    background-repeat:no-repeat
+}
+
+input[type="checkbox"]:checked + label::before {
+    background-image:url(/images/checkbox2.png);
+    background-repeat:no-repeat
+}

@@ -1,0 +1,22 @@
+﻿.new-select-style-wpandyou select {
+    border-radius:0;
+    background:transparent;
+    height:34px;
+    padding:5px;
+    border:0;
+    font-size:16px;
+    line-height:1;
+    -webkit-appearance:none;
+    width:262px;
+    color:#fff;
+    background:url(/images/down_arrow_select.jpg) no-repeat right #66d8f5;
+    cursor:url(/cursors/cursor2.cur),progress!important
+}
+
+.new-select-style-wpandyou {
+    border:1px solid #fff;
+    overflow:hidden;
+    height:34px;
+    width:262px;
+    cursor:url(/cursors/cursor2.cur),progress!important
+}

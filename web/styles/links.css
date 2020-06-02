@@ -1,0 +1,15 @@
+a {
+    color:#fff;
+    text-decoration:none
+}
+
+a {
+    -webkit-transition-duration:.5s;
+    -o-transition-duration:.5s;
+    -moz-transition-duration:.5s;
+    transition-duration:.5s
+}
+
+a:hover {
+    color:blue
+}

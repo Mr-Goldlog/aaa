@@ -1,0 +1,233 @@
+﻿#listingheader {
+    color:#0045f8;
+    font-weight:700;
+    text-align:right;
+    padding-bottom:20px
+}
+
+#listingheader a,#listingheader a:active,#listingheader a:visited,#listingheader a:link {
+    text-decoration:none;
+    color:#0045f8
+}
+
+#listingheader a:hover {
+    text-decoration:underline;
+    color:#0045f8
+}
+
+#headerfile {
+    text-align:left;
+    float:left;
+    width:320px
+}
+
+#headersize {
+    text-align:right;
+    width:75px;
+    float:left
+}
+
+#headermodified {
+    text-align:right;
+    width:310px;
+    float:left
+}
+
+#listing {
+    background-color:#0045f8;
+    border:1px solid #0045f8
+}
+
+#listing a {
+    display:block;
+    padding:2px 5px;
+    font-size:small;
+    color:#fff;
+    font-family:Arial,Helvetica,sans-serif;
+    text-decoration:none;
+    text-align:right
+}
+
+#listing a:hover {
+    background-color:#0045f8
+}
+
+#listing a img {
+    float:left;
+    margin-right:4px
+}
+
+#listing a strong {
+    width:300px;
+    float:left;
+    cursor:hand;
+    cursor:url(/cursors/cursor2.cur),progress!important;
+    text-align:left
+}
+
+#listing a em {
+    float:left;
+    width:75px;
+    text-align:right;
+    cursor:hand;
+    cursor:url(/cursors/cursor2.cur),progress!important
+}
+
+#listing a span {
+    position:absolute;
+    margin-left:-151px;
+    margin-top:-2px
+}
+
+#listing a span img {
+    width:150px;
+    background-color:#CCC;
+    visibility:hidden
+}
+
+#listing a:hover span img {
+    border:1px solid #666;
+    visibility:visible
+}
+
+#listingcontainer {
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:100px;
+    padding-right:100px
+}
+
+.clear {
+    display:inline-block
+}
+
+.clear:after {
+    content:" ";
+    display:block;
+    height:0;
+    clear:both;
+    overflow:hidden;
+    visibility:hidden
+}
+
+.clear {
+    display:block
+}
+
+body {
+    background-color:#fff;
+    font-family:Tahoma,Geneva,Kalimati,sans-serif
+}
+
+img {
+    border:none
+}
+
+#content {
+    width:963px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:88px
+}
+
+#logo {
+    top:36px;
+    left:55px;
+    position:absolute;
+    display:block;
+    width:auto;
+    height:auto
+}
+
+#content .content {
+    background:transparent url(http://www.main-hosting.com/hostinger/welcome/images/bg.jpg) repeat-y 7px top;
+    margin:0;
+    position:relative;
+    float:left;
+    width:961px
+}
+
+h1 {
+    font-size:40px;
+    text-align:center;
+    font-weight:700;
+    color:#639
+}
+
+#content p {
+    color:#474747;
+    font-size:15px;
+    padding:0 69px
+}
+
+#files .cont {
+    background:transparent url(http://fgs.pp.ua/images/bah.png) repeat top left;
+    width:961px;
+    height:auto;
+    position:relative;
+    float:left
+}
+
+ul.list {
+    margin:26px 190px;
+    padding:5px;
+    list-style:none;
+    display:block;
+    background-color:#ece9ff;
+    border:1px solid #afa7ff;
+    font-size:14px;
+    color:#7361dc;
+    height:auto
+}
+
+ul.list li .filesize,ul.list li .datetime {
+    float:right
+}
+
+ul.list li .filesize {
+    font-style:italic;
+    margin-right:28px
+}
+
+#files {
+    margin-bottom:20px;
+    height:auto
+}
+
+#footer {
+    clear:both;
+    font-size:11px;
+    color:#999;
+    width:961px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+    margin-bottom:20px;
+    position:relative
+}
+
+#footer .links a {
+    color:#999
+}
+
+#footer .links {
+    text-align:center
+}
+
+#footer .links .pipe {
+    color:#ccc
+}
+
+#footer .copyright {
+    color:#6b6b6b;
+    text-align:center;
+    margin-top:6px
+}
+
+#footer .social-icons {
+    width:80px;
+    top:0;
+    right:8px;
+    position:absolute;
+    text-align:right
+}
